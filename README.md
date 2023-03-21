@@ -1,2 +1,2 @@
 # git
-# steps to upload files to github for vscode
+# steps to upload files to github from vscode
