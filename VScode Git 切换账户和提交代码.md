@@ -56,7 +56,7 @@ git config --global user.email "email"     修改邮箱
 
 #### git remote add origin git@github.com/Robert-J-WANG/11
 
-### 5、发布到分支,即远程仓储 这个步可能报错 如果没有报错 那么项目代码已经上传到你的码云对应的仓库了
+### 5、发布到分支,即远程仓储 
 
 #### git push -u origin master (or main)
 
