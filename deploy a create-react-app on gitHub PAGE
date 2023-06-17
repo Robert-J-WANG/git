@@ -1,1 +1,31 @@
+发布react项目（使用脚手架创建的项目）到gitHub PAGE
 
+步骤如下：
+Step 1: 上传本地项目到仓库
+
+Step 2: Add homepage to package.json 
+
+    打开项目文件夹中的package.json，添加以下代码到 name:xxxx下面
+    "homepage": "https://myusername.github.io/my-app",
+  
+Step 3: Install gh-pages and add deploy to scripts in package.json
+
+    终端运行命令： npm install --save gh-pages
+    
+Step 4: Add the following scripts in your package.json:
+
+      "scripts": {
+    +   "predeploy": "npm run build",
+    +   "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+
+Step 5: Deploy the site by running npm run deploy
+
+    npm run deploy
+    
+Step 6: ensure your project’s settings use gh-pages 
+
+   找到setting>左侧Pages>Build and deployment下，Branch(选择gh-pages），save
+   
+Step 7: 发布完成，等待几分钟，点击链接即可 
