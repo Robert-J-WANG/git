@@ -36,9 +36,13 @@ git config --global user.email "email"     修改邮箱
 
 #### 3、提交到分支
 
-#### git commit -m "描述描述"
+#### git commit -m "update"
 
-### 4、设置好提交地址
+#### 4、指定分支
+
+#### git branch -M master (or main)
+
+### 5、设置好提交地址(提前创建好仓库）
 
 #### git remote add origin [https://github.com/Robert-J-WANG/11](https://link.zhihu.com/?target=https%3A//github.com/chuweiyan/taro.git)(自己预先新建的仓库地址)
 
@@ -54,5 +58,5 @@ git config --global user.email "email"     修改邮箱
 
 ### 5、发布到分支,即远程仓储 这个步可能报错 如果没有报错 那么项目代码已经上传到你的码云对应的仓库了
 
-#### git push -u origin master
+#### git push -u origin master (or main)
 
