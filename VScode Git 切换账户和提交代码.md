@@ -31,6 +31,10 @@ git config --global user.email "email"     修改邮箱
 
 #### git init
 
+##### 删除这个本地仓库（隐藏的.git文件夹）
+
+#### rm -rf .git
+
 ### 2、将修改完的文件提交到本地仓储（.git文件夹）的暂存区
 
 #### 提交单个文件
