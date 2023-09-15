@@ -31,7 +31,7 @@ git config --global user.email "email"     修改邮箱
 
 #### git init
 
-##### *******删除这个本地仓库（隐藏的.git文件夹）******
+##### ——————————删除这个本地仓库（隐藏的.git文件夹）——————————
 
 #### rm -rf .git
 
