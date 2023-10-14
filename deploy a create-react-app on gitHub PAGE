@@ -1,5 +1,7 @@
 发布react项目（使用脚手架创建的项目）到gitHub PAGE
 
+vite: https://dev.classmethod.jp/articles/deploying-reactvite-website-in-github-pages/
+
 步骤如下：
 Step 1: 上传本地项目到仓库
 
