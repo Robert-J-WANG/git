@@ -1,4 +1,14 @@
-发布react项目（使用脚手架创建的项目）到gitHub PAGE
+
+Part 1:发布静态html文件到gitHub PAGE
+步骤如下：
+Step 1: 确保主文件名是index.html
+Step 2: 上传所有本地相关文件（html, css，js,资源文件）到远程仓库
+Step 3: 进入github里对应的远程仓库，点击settings,点击左侧pages,进入pages页面
+Step 4： Branch选项选择项目所在的分支（比如master或main),点击save。发布成功（需等待几分钟）
+step 5: 将发布的url地址拷贝，进入仓库主页面进行设置即可
+
+
+Part 2:发布react项目（使用脚手架创建的项目）到gitHub PAGE
 
 vite: https://dev.classmethod.jp/articles/deploying-reactvite-website-in-github-pages/
 
